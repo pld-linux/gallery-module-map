@@ -14,6 +14,7 @@ BuildRequires:	unzip
 Requires:	gallery >= 2.1.0
 Requires:	php-ctype
 Requires:	webapps
+Provides:	external-gallery-module
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
