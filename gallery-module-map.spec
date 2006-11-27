@@ -3,7 +3,7 @@ Summary:	Google Map Integration with Gallery
 Summary(pl):	Integracja Google Map z Gallery
 Name:		gallery-module-%{_module}
 Version:	0.5.1d
-Release:	0.9
+Release:	0.10
 License:	GPL
 Group:		Applications/Publishing
 Source0:	http://dl.sourceforge.net/gmap-module/%{_module}-module-%{version}.zip
@@ -12,7 +12,7 @@ URL:		http://gallery.sourceforge.net/
 BuildRequires:	rpmbuild(macros) >= 1.268
 BuildRequires:	unzip
 Requires:	gallery >= 2.1.0
-Requires:	php-ctype
+Requires:	php(ctype)
 Requires:	webapps
 Provides:	external-gallery-module
 BuildArch:	noarch
