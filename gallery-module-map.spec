@@ -1,6 +1,6 @@
 %define		_module		map
 Summary:	Google Map Integration with Gallery
-Summary(pl.UTF-8):   Integracja Google Map z Gallery
+Summary(pl.UTF-8):	Integracja Google Map z Gallery
 Name:		gallery-module-%{_module}
 Version:	0.5.1d
 Release:	0.10
