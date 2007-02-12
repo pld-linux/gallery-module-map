@@ -1,6 +1,6 @@
 %define		_module		map
 Summary:	Google Map Integration with Gallery
-Summary(pl):	Integracja Google Map z Gallery
+Summary(pl.UTF-8):   Integracja Google Map z Gallery
 Name:		gallery-module-%{_module}
 Version:	0.5.1d
 Release:	0.10
@@ -26,11 +26,11 @@ on any Gallery 2 albums and turn the display into a Google map. There
 is also a Module that has many features but the default map shows
 pictures from every albums.
 
-%description -l pl
-Integracja Google Map z Gallery. Jest to motyw, ktÛry moøna uøywaÊ z
-dowolnymi albumami Gallery 2, zamieniaj±cy ekran w mapÍ Google, a
-takøe modu≥, ktÛry ma wiele moøliwo∂ci, ale domy∂lna mapa pokazuje
-obrazy ze wszystkich albumÛw.
+%description -l pl.UTF-8
+Integracja Google Map z Gallery. Jest to motyw, kt√≥ry mo≈ºna u≈ºywaƒá z
+dowolnymi albumami Gallery 2, zamieniajƒÖcy ekran w mapƒô Google, a
+tak≈ºe modu≈Ç, kt√≥ry ma wiele mo≈ºliwo≈õci, ale domy≈õlna mapa pokazuje
+obrazy ze wszystkich album√≥w.
 
 %prep
 %setup -q -n %{_module}
